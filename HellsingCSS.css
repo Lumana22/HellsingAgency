@@ -1,0 +1,590 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: segoe UI, sans-serif;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10%;
+	align-items: center;
+	z-index: 10000;
+	background: black;
+	
+}
+
+.lol {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+ 
+
+.lol:hover {
+    background: #cd0000;
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(205,0,0,0.4); 
+}
+ 
+
+.lol:active {
+    transform: translateY(2px) scale(0.98); 
+}
+ 
+
+.lol::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+	
+}
+ 
+.lol:hover::after {
+    left: 120%; 
+}
+ 
+
+.lol {
+    animation: pulseButton 3s infinite;
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(205,0,0, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(205,0,0 0); }
+    100% { box-shadow: 0 0 0 0 rgba(205,0,0 0); }
+}
+
+.lel {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+ 
+
+.lel:hover {
+    background: #7d26cd;
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(205,0,0,0.4); 
+}
+ 
+
+.lel:active {
+    transform: translateY(2px) scale(0.98); 
+}
+ 
+
+.lel::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+}
+ 
+.lel:hover::after {
+    left: 120%; 
+}
+ 
+
+.lel {
+    animation: pulseButton 3s infinite;
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(205,0,0, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(205,0,0 0); }
+    100% { box-shadow: 0 0 0 0 rgba(205,0,0 0); }
+}
+
+.lul {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation: pulseButton 3s infinite;
+}
+
+.lul:hover {
+    background: #00cd00;
+    color: #000; 
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(205,0,0,0.4); 
+}
+
+.lul:active {
+    transform: translateY(2px) scale(0.98); 
+}
+
+.lul::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+}
+
+.lul:hover::after {
+    left: 120%; 
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(205,0,0, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(205,0,0 0); }
+    100% { box-shadow: 0 0 0 0 rgba(205,0,0 0); }
+}
+
+.lal {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation: pulseButton 3s infinite;
+}
+
+.lal:hover {
+    background: #FFFFFF;
+    color: #000; 
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(205,0,0,0.4); 
+}
+
+.lal:active {
+    transform: translateY(2px) scale(0.98); 
+}
+
+.lal::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+}
+
+.lal:hover::after {
+    left: 120%; 
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(205,0,0, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(255,255,255,0.3); }
+    100% { box-shadow: 0 0 0 0 rgba(205,0,0 0); }
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(205,0,0, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(205,0,0 0); }
+    100% { box-shadow: 0 0 0 0 rgba(205,0,0 0); }
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+	background: black;
+	position: fixed;
+	width: 100%;
+	z-index: 10007;
+}
+
+.logo span {
+	color: #eeb422;
+}
+
+.links {
+	display: flex;
+	list-style: none;
+	gap: 40px;
+}
+
+.links a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+}
+
+.thermo {
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("aha.jpg");
+	background-size: cover;
+	display: fix;
+	align-items: center;
+	padding-left: 10%;
+}
+
+.thermo h1 {
+	font-size: 4rem;
+	color: #fff;
+	max-width: 600px;
+	padding-top: 700px
+}
+
+
+.bottle {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+ 
+
+.bottle:hover {
+    background: #00008b;
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(0,122,255,0.4); 
+}
+ 
+
+.bottle:active {
+    transform: translateY(2px) scale(0.98); 
+}
+ 
+
+.bottle::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+}
+ 
+.bottle:hover::after {
+    left: 120%; 
+}
+ 
+
+.bottle {
+    animation: pulseButton 3s infinite;
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(0, 122, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0); }
+}
+
+.showcase { padding: 100px 8%; display: flex; justify-content: center; }
+
+.visual-up {
+    display: flex; align-items: center; gap: 50px; max-width: 1000px;
+}
+.details {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 50px;
+    border-radius: 30px;
+    height: 450px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+.details img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    transition: transform 0.5s ease;
+}
+.details:hover img { transform: scale(1.05) rotate(-3deg); }
+ 
+.info { flex: 1; }
+.tag { background: #007aff; color: #fff; padding: 5px 12px; border-radius: 50px; font-size: 12px; }
+.price { font-size: 24px; font-weight: 700; margin: 20px 0; }
+ 
+
+.bottle,  .buy {
+    padding: 18px 45px; background: #000; color: #fff; text-decoration: none;
+    border-radius: 100px; display: inline-block; font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+ 
+
+.features-wrapper {
+    background: #000;
+    color: #fff;
+    padding: 100px 8%;
+}
+
+.features-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.feature-card {
+    flex: 1;
+    opacity: 0; /* Unsichtbar beim Start */
+    transform: translateY(30px); /* Versetzt nach unten */
+    animation: revealCard 1s ease-out forwards; /* Die Animation */
+}
+
+/* Zeitliche Verzögerung der Animation */
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+
+/* Die Keyframes: Das ist das "Kochen" */
+@keyframes revealCard {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Die Linie animiert sich jetzt auch per CSS */
+
+
+
+.line {
+    width: 0;
+    height: 8px;
+    background: #007aff;
+    margin-bottom: 20px;
+    animation: growLine 0.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.linef {
+    width: 0;
+    height: 8px;
+    background: #a020f0;
+    margin-bottom: 20px;
+    animation: growLine 0.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.linea {
+    width: 0;
+    height: 8px;
+    background: #eec900;
+    margin-bottom: 20px;
+    animation: growLine 0.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes growLine {
+    to { width: 60px; }
+}
+
+.feature-showcase {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 8%;
+}
+.image-side { flex: 1; }
+.image-side img { 
+    width: 100%; 
+    border-radius: 20px; 
+    object-fit: cover; /
+}
+
+
+.details { flex: 1;
+}
+/*buy section*/
+.buy {
+    position: relative;
+    padding: 18px 45px;
+    background: #000;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation: pulseButton 3s infinite;
+}
+
+.buy:hover {
+    background: #ffd700;
+    color: #000; 
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 15px 30px rgba(205,0,0,0.4); 
+}
+
+.buy:active {
+    transform: translateY(2px) scale(0.98); 
+}
+
+.buy::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s;
+}
+
+.buy:hover::after {
+    left: 120%; 
+}
+ 
+@keyframes pulseButton {
+    0% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(0, 122, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0); }
+}
+
+.features { display:flex; justify-content: space-between; padding: 50px 10%; background: #f9f9f9;}
+.item { flex: 1; padding: 20px; border-left: 2px solid #00d1ff; margin: 0 20px;}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1); 
+    cursor: pointer;
+}
+
+.card:hover {
+    width: 450px; 
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1); 
+}
+	
+	
+	
+.app-showcase {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 8%;
+    background: #000;
+    color: #fff;
+}
+
+.app-info {
+    flex: 1; 
+    max-width: 500px;
+}
+
+.app-visual {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.floating-phone {
+    width: 100%;
+    max-width: 450px;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+	
+	.liness {
+    width: 0;
+    height: 8px;
+    background: #ff0000;
+    margin-bottom: 20px;
+    animation: growLine 0.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
